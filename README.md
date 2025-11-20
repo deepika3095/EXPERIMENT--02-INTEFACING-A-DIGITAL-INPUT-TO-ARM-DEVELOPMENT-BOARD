@@ -72,21 +72,21 @@ int main(void)
     led_blink();
      }
   }
-void led_blink()
+void blink_led()
 {
- button=HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0);
-    if(button==0)
-    {
-     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
-     HAL_Delay(1000);
-     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-     HAL_Delay(1000);
-    }
-    else
-    {
-     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-     HAL_Delay(1000);
-    }
+	BUTTON=HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
+	if(BUTTON==0)
+	{
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
+		HAL_Delay(5000);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+		HAL_Delay(5000);
+	}
+	else
+	{
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
+		HAL_Delay(5000);
+	}
 }
 
 ```
