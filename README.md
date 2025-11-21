@@ -95,9 +95,9 @@ void blink_led()
 
 ## Output  :
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d1f627f8-628c-48e7-ac7f-4097be822ab5" />
+<img width="1076" height="660" alt="image" src="https://github.com/user-attachments/assets/91b12424-eb2e-4584-86a7-7261cab2c329" />
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/b55474a8-d8fd-4648-941b-e70084dd44b2" />
+<img width="1393" height="658" alt="image" src="https://github.com/user-attachments/assets/f05294ad-bc23-44b6-9029-58e44714dc62" />
 
 
  
